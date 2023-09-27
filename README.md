@@ -31,7 +31,7 @@ A aplicação está dividida em 2 repositórios, sendo:
 
 - Back-end (Este repositório)
 
-- > [Front-end] https://github.com/mjosejunior/mvp_jrmj_sp1_front
+- > [Front-end] https://github.com/mjosejunior/mvp_jrmj_sp2_front
 
 
 ### Instalação e Execução Local
@@ -59,7 +59,7 @@ A aplicação está dividida em 2 repositórios, sendo:
 ```bash
 (env)$ flask run --host 0.0.0.0 --port 5001 --reload
 ```
-Acesse `http://localhost:5001/#/` em seu navegador para conferir a API em execução.
+Acesse `http://localhost:5001/` em seu navegador para conferir a API em execução.
 
 ## Como Executar com Docker
 

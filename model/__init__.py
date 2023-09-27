@@ -9,7 +9,7 @@ from model.observacao import Observacao
 from model.atividade import Atividade
 
 # Define o caminho absoluto para o diretório do banco de dados dentro do contêiner
-db_path = "/app/database"
+db_path = "database"
 # Verifica se o diretorio não existe
 if not os.path.exists(db_path):
     # então cria o diretorio

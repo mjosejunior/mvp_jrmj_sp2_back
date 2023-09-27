@@ -279,3 +279,7 @@ def add_observacao(form: ObservacaoSchema):
 
     # retorna a representação da atividade
     return apresenta_atividade(atividade, 'Observação adicionada com sucesso!'), 200
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5001)
