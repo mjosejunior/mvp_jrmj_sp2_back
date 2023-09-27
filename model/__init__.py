@@ -8,14 +8,16 @@ from model.base import Base
 from model.observacao import Observacao
 from model.atividade import Atividade
 
-db_path = "database/"
+# Define o caminho absoluto para o diretório do banco de dados dentro do contêiner
+db_path = "/app/database"
 # Verifica se o diretorio não existe
 if not os.path.exists(db_path):
     # então cria o diretorio
     os.makedirs(db_path)
 
-# url de acesso ao banco (essa é uma url de acesso ao sqlite local)
+# url de acesso ao banco (essa é uma url de acesso ao sqlite no contêiner)
 db_url = 'sqlite:///%s/db.sqlite3' % db_path
+
 
 # cria a engine de conexão com o banco
 engine = create_engine(db_url, echo=False)
