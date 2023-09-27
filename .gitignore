@@ -1,0 +1,31 @@
+# Arquivos gerados pela execução do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais do Python
+venv/
+env/
+*.env
+
+# Arquivos de log
+*.log
+
+# Arquivos gerados pela execução de testes
+.coverage
+.pytest_cache/
+
+# Diretórios específicos do IDE
+.idea/
+.vscode/
+
+# Arquivos de configuração local
+*.swp
+*.bak
+*.tmp
+*~
+
+# Outros arquivos específicos do projeto
+config.ini
+secrets.ini

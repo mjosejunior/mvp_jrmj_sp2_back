@@ -1,0 +1,49 @@
+[2023-09-26 00:29:14,830] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 00:29:14] "GET /atividades HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 00:29:50,714] DEBUG _new_conn() L1048 Starting new HTTPS connection (1): nominatim.openstreetmap.org:443 - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/urllib3/connectionpool.py L1048
+[2023-09-26 00:29:51,488] DEBUG _make_request() L546  https://nominatim.openstreetmap.org:443 "GET /reverse?lat=-22.977515014417776&lon=-43.23421597480774&format=json HTTP/1.1" 200 1136 - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/urllib3/connectionpool.py L546 
+[2023-09-26 00:29:51,501] DEBUG add_atividade() L137  Adicionado atividade de data: '2023-08-28' - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L137 
+[2023-09-26 00:29:51,502] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 00:29:51] "POST /atividade HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 00:29:52,580] DEBUG get_atividades() L174  Coletando atividades  - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L174 
+[2023-09-26 00:29:52,581] DEBUG get_atividades() L185  2 atividades encontradas - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L185 
+[2023-09-26 00:29:52,582] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 00:29:52] "GET /atividades HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 00:30:00,948] DEBUG add_observacao() L340  Adicionando observações a atividade #3 - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L340 
+[2023-09-26 00:30:00,956] DEBUG add_observacao() L362  Adicionado observação a atividade #3 - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L362 
+[2023-09-26 00:30:00,958] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 00:30:00] "POST /observacao HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 00:30:01,849] DEBUG get_atividades() L174  Coletando atividades  - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L174 
+[2023-09-26 00:30:01,850] DEBUG get_atividades() L185  2 atividades encontradas - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L185 
+[2023-09-26 00:30:01,851] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 00:30:01] "GET /atividades HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 00:30:25,237] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 00:30:25] "OPTIONS /atividade HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 00:30:25,240] DEBUG update_atividade() L260  Atualizando dados da atividade #3 - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L260 
+[2023-09-26 00:30:25,248] DEBUG update_atividade() L292  Atividade atualizada: 3 - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L292 
+[2023-09-26 00:30:25,249] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 00:30:25] "PUT /atividade HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 00:30:26,756] DEBUG get_atividades() L174  Coletando atividades  - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L174 
+[2023-09-26 00:30:26,757] DEBUG get_atividades() L185  2 atividades encontradas - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L185 
+[2023-09-26 00:30:26,759] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 00:30:26] "GET /atividades HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 00:30:34,507] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 00:30:34] "OPTIONS /atividade HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 00:30:34,510] DEBUG update_atividade() L260  Atualizando dados da atividade #3 - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L260 
+[2023-09-26 00:30:34,511] DEBUG update_atividade() L292  Atividade atualizada: 3 - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L292 
+[2023-09-26 00:30:34,513] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 00:30:34] "PUT /atividade HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 00:30:36,242] DEBUG get_atividades() L174  Coletando atividades  - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L174 
+[2023-09-26 00:30:36,244] DEBUG get_atividades() L185  2 atividades encontradas - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L185 
+[2023-09-26 00:30:36,245] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 00:30:36] "GET /atividades HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 00:30:53,847] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 00:30:53] "OPTIONS /atividade?id=3 HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 00:30:53,849] DEBUG del_atividade() L311  Deletando dados sobre atividade #3 - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L311 
+[2023-09-26 00:30:53,854] DEBUG del_atividade() L321  Deletado atividade #3 e todas as suas observações. - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L321 
+[2023-09-26 00:30:53,854] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 00:30:53] "DELETE /atividade?id=3 HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 00:30:55,181] DEBUG get_atividades() L174  Coletando atividades  - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L174 
+[2023-09-26 00:30:55,182] DEBUG get_atividades() L185  1 atividades encontradas - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L185 
+[2023-09-26 00:30:55,183] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 00:30:55] "GET /atividades HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 00:30:58,165] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 00:30:58] "OPTIONS /atividade?id=2 HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 00:30:58,166] DEBUG del_atividade() L311  Deletando dados sobre atividade #2 - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L311 
+[2023-09-26 00:30:58,175] DEBUG del_atividade() L321  Deletado atividade #2 e todas as suas observações. - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L321 
+[2023-09-26 00:30:58,176] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 00:30:58] "DELETE /atividade?id=2 HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 00:30:59,764] DEBUG get_atividades() L174  Coletando atividades  - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L174 
+[2023-09-26 00:30:59,766] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 00:30:59] "GET /atividades HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 17:40:29,776] DEBUG _new_conn() L1048 Starting new HTTPS connection (1): nominatim.openstreetmap.org:443 - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/urllib3/connectionpool.py L1048
+[2023-09-26 17:40:30,607] DEBUG _make_request() L546  https://nominatim.openstreetmap.org:443 "GET /reverse?lat=-22.981680881302182&lon=-43.2213306427002&format=json HTTP/1.1" 200 1147 - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/urllib3/connectionpool.py L546 
+[2023-09-26 17:40:30,615] DEBUG add_atividade() L137  Adicionado atividade de data: '2023-09-04' - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L137 
+[2023-09-26 17:40:30,616] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 17:40:30] "POST /atividade HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 17:40:32,485] DEBUG get_atividades() L174  Coletando atividades  - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L174 
+[2023-09-26 17:40:32,486] DEBUG get_atividades() L185  1 atividades encontradas - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L185 
+[2023-09-26 17:40:32,487] INFO _log() L224  127.0.0.1 - - [26/Sep/2023 17:40:32] "GET /atividades HTTP/1.1" 200 - - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/env/lib/python3.11/site-packages/werkzeug/_internal.py L224 
+[2023-09-26 17:42:32,238] DEBUG add_observacao() L340  Adicionando observações a atividade #1 - call_trace=/Users/developer/Documents/PUC-RIO/Atividades/backend/app.py L340 
